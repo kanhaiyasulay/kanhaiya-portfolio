@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FaLinkedin, FaGithub, FaHackerrank } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { SiLeetcode } from "react-icons/si";
 
 export default function ProfileLinks() {

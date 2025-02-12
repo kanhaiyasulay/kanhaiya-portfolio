@@ -10,7 +10,6 @@ import Contact from './components/Contact'
 import ProfileLinks from './components/ProfileLinks'
 import GameCursor from './components/GameCursor'
 import FloatingCharacter from './components/FloatingCharacter'
-import { FaGamepad } from 'react-icons/fa'
 
 export default function Home() {
   const [currentSection, setCurrentSection] = useState('education')
@@ -34,12 +33,12 @@ export default function Home() {
     return () => {
       window.removeEventListener('mousemove', moveCursor)
     }
-  }, [])
+  }, [cursorX, cursorY])
 
   useEffect(() => {
     const timer = setTimeout(() => setShowCharacter(true), 2000)
     return () => clearTimeout(timer)
-  }, [])
+  }, [cursorX, cursorY])
 
   return (
     <div className="min-h-screen bg-black text-green-400 font-mono p-2 sm:p-4 cursor-none">
