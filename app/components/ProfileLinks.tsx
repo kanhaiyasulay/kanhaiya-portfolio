@@ -1,12 +1,14 @@
 import { motion } from 'framer-motion'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { SiLeetcode } from "react-icons/si";
+import { TbFileCv } from "react-icons/tb";
 
 export default function ProfileLinks() {
   const links = [
     { icon: FaLinkedin, url: "https://www.linkedin.com/in/kanhaiya-sulay-42263a256/" },
     { icon: FaGithub, url: "https://github.com/kanhaiyasulay" },
     { icon: SiLeetcode, url: "https://leetcode.com/u/KanhaiyaSulay333/" },
+    { icon: TbFileCv, url: "https://www.canva.com/design/DAGYmWN1xeY/_3NznKVXMIhcbYVyNtvWpw/view?utm_content=DAGYmWN1xeY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5f8feb5f5c" },
   ]
 
   return (
