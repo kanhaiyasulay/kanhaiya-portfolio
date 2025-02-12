@@ -15,7 +15,7 @@ export default function Education() {
     },
     { 
       id: 2, 
-      title: "Sanjivani Junior College Kopargaon", 
+      title: "Sanjivani Junior College Kopargaon, Ahmednagar", 
       year: "80.17%",
       details: "Intensive 12-week program covering advanced game design principles and industry-standard tools."
     },
