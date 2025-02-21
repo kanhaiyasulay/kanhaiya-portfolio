@@ -9,17 +9,17 @@ import { use } from "react"
 const projects = [
     {
         id: 1,
-        title: "Dope Rocket",
-        description: "A modern take on the classic arcade game. Allows player to move the rocket in 3D world.",
-        images: ["/first_game1.png", "/first_game.png"],
-        gif: "/first_game.gif",
+        title: "Ghost Night",
+        description: "RPG game made in Unity 2D",
+        images: ["/RPG_IdlePlayer.png", "/RPG_Battle.png"],
+        gif: "/.gif",
     },
     {
         id: 2,
-        title: "Tech Courses",
+        title: "Infinit Runner",
         description:
-            "A custom ed tech website which allows user to wishlist courses. Also allows to add filters according to their preferences.",
-        images: ["/tech-courses-1.jpg", "/tech-courses-2.jpg"],
+            "3D game made in Unity.",
+        images: ["/infiRunner1.png", "/infiRunner2.png", "/infiRunner3.png"],
         gif: "/tech-courses.gif",
     },
     {
@@ -27,7 +27,7 @@ const projects = [
         title: "Crystal World Platformer Game",
         description:
             "Platformer game allows player to do various types of movements like - double jump, run, attack, etc. Includes multiple levels as level progresses the game gets more harder.",
-        images: ["/crystal-world-1.jpg", "/crystal-world-2.jpg"],
+        images: ["/platform_menu.png", "/platform_lvl1.png", "/platform_lvl2.png"],
         gif: "/crystal-world.gif",
     },
 ]

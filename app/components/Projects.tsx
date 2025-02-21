@@ -13,17 +13,20 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Dope Rocket",
+      title: "Ghost Night",
       description: <p>
-        A modern take on the classic arcade game. <br />
-        Allows player to move the rocket in 3D world.
+        A 2D RPG game made in unity <br />
+        Allows player to move in the real world scenerio <br/>
+        Includes enemies with the advance Enemy AI <br/>
+        Allows player to kill ghost enemies, with the multiple attacking styles<br/>
+        Includes a dedicated inventory system
       </p>
 
     },
     {
       id: 2,
-      title: "Tech courses",
-      description: <p>A custom ed tech website which allows user to wishlist courses <br />Also allows to add filters according to their preferences</p>
+      title: "Infinite Runner",
+      description: <p>3D game made in Unity <br/> Allows player to enjoy the infinite challanges<br /> Tracks the score and increments the health on each pickup</p>
     },
     {
       id: 3,
