@@ -7,10 +7,12 @@ export default function Skills() {
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null)
 
   const skills = [
-    { name: "Data Structure and Algorithms", level: 90, description: "Proficient in creating 2D and 3D games using Unity engine" },
-    { name: "Design Patterns", level: 85, description: "Expert in C# programming for game development" },
-    { name: "Unity C#", level: 70, description: "Skilled in creating 3D models and environments for games" },
-    { name: "JavaScript", level: 80, description: "Experienced in crafting engaging game mechanics and levels" },
+    { name: "Data Structure and Algorithms", level: 90, description: "Solved 500+ DS Algo problems on different platforms" },
+    { name: "Design Patterns", level: 85, description: "Expert in C# programming" },
+    { name: "Unity C#", level: 70, description: "Skilled in creating 3D and 2D games in Unity" },
+    { name: "JavaScript", level: 90, description: "Experienced in making hightly engaging websites in javascript" },
+    { name: "Phaser 3", level: 90, description: "Experienced in building 2D games using Phaser 3" },
+    { name: "React", level: 80, description: "Experienced in making hightly engaging websites in react" },
     { name: "MySQL", level: 75, description: "Specialized in creating immersive VR experiences" },
   ]
 

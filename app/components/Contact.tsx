@@ -53,8 +53,8 @@ export default function Contact() {
             exit={{ opacity: 0, y: -50 }}
             className="mt-4 text-center"
           >
-            <p className="text-xl">Message Sent! 🎉</p>
-            <p>XP +100</p>
+            <p className="text-lg sm:text-xl  text-red-400">Error Occured! 🫥</p>
+            <p className="text-sm sm:text-base">XP +100</p>
           </motion.div>
         )}
       </AnimatePresence>
